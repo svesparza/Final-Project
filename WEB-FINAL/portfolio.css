@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+}
+@font-face {
+    font-family: Boeotia;
+    src: url("Boeotia.ttf")
+
+}
+body{
+    background-color: #5A8365; 
+    margin:0;
+    font-family: Boeotia; 
+    font-size:30px; 
+    color: black;
+    list-style: 1.6;
+    line-height :1.6;
+    font-display: double;
+    position: center;
+   
+}
+
+.container { 
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+ }
+ .buttons {
+    display: flex;
+    font-size: 40px; 
+    position: center;
+    justify-content: center; 
+ }
+
+ .btn{
+    text-decoration: none;
+    font-size: 40px;
+    color: #A1E3B3;
+    position: center;
+    text-align: center; 
+    justify-content: center;
+    margin-bottom: 10%;
+
+ }
+
+#Main{ 
+    background:cover;
+    background-position:center; 
+    height:50vh; 
+    display:flex;
+    position: center; 
+    flex-direction:column;
+    justify-content:center;
+    align-items: center; 
+    
+} 
+
+
+#showcase p{
+    font-size: 20px
+} 
+#Contact{
+text-align: center;
+margin-bottom: 10%;
+
+
+}
+
+#About{
+text-align: center;
+font-family: Boeotia; 
+font-size: 30px;
+line-height: 1.9em;
+}
+	
+	
+		
+	
+		

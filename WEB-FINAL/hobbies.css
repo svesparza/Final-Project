@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+}
+@font-face {
+    font-family: Boeotia;
+    src: url("Boeotia.ttf")
+
+}
+@font-face {
+    font-family: 'Bubble Bobble';
+    src: url("Bubble Bobble.otf")
+
+}
+
+
+
+body{ 
+background-color: black;
+font-family: "Bubble Bobble"; 
+font-size:30px; 
+color:lightblue;
+
+}
+p{
+    margin-right:50%
+}
+
+h1{ 
+color:lightblue; 
+font-family: "Bubble Bobble";
+font-size: 50px;
+}
+
+
+/*buttons */ 
+.navigator { 
+    background-color:lightblue; 
+    overflow: hidden;
+    justify-content:center;
+    font-family: Boeotia;
+}
+
+.navigator a { 
+float: left; 
+color:black;
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+    font-size: 17px;
+    justify-content: center; 
+    
+}
+.navigator a:hover{ 
+background-color: black; 
+color:white;
+font-family:Boeotia; 
+}
+.navigator{ 
+color:white;
+}
+
+/*buttons */
